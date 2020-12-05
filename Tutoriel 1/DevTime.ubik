@@ -1,0 +1,64 @@
+function main()
+{
+    Gfx_Initialise(640,640);
+    var intensity = 0;
+    Print("Dev-Time Official logo in Ubik Code");
+    Print("Created by KilioZ (Matéo MROZEK)");
+    Print("Date: 05/12/2020");
+    Print("https://dev-time.eu/");
+
+    // Distance du trait, Position Top (Droite fin du trait), Position Gauche (début du x), Position Top (Gauche début du trait)
+    Gfx_DrawLine(600, 20, 20, 20); // Barre droite _ (barre haut)
+
+    Gfx_DrawLine(40, 450, 20, 20); // Barre gauche \
+    Gfx_DrawLine(580, 450, 600, 20); // Barre droite /
+
+    Gfx_DrawLine(580, 450, 300, 580); // Barre droite / (bas)
+    Gfx_DrawLine(40, 450, 300, 580); // Barre droite \ (bas)
+
+
+    //Intérieur du logo
+    Gfx_DrawLine(450, 430, 470, 100); // Barre droite / officiel
+    Gfx_DrawLine(407, 300, 400, 392); // Barre droite /
+    Gfx_DrawLine(470, 100, 150, 100); // Barre _
+
+    Gfx_DrawLine(165, 300, 150, 100); // Barre gauche \
+    Gfx_DrawLine(168, 430, 163, 350); // Barre gauche \
+
+
+
+
+
+
+    
+
+    Gfx_DrawLine(415, 200, 205, 200); // Barre _ 1ere (interieur)
+    Gfx_DrawLine(410, 250, 210, 250); // Barre _ 2e (interieur)
+    Gfx_DrawLine(210, 250, 205, 200); // Barre gauche \ (interieur)
+    Gfx_DrawLine(415, 200, 410, 250); // Barre gauche / (interieur)
+
+
+    Gfx_DrawLine(164, 300, 405, 300); // Barre _ 3e (interieur)
+    Gfx_DrawLine(407, 300, 400, 392); // Barre gauche / (interieur)
+
+
+
+    Gfx_DrawLine(165, 350, 216, 350); // Barre _ 4e (interieur) (après le ______)
+
+    Gfx_DrawLine(400, 394, 300, 440); // Barre droite / (bas)
+    Gfx_DrawLine(220, 394, 300, 440); // Barre droite \ (bas)
+    Gfx_DrawLine(221, 397, 216, 352); // Barre gauche \ 2ème (non modifié encore)
+    Gfx_DrawLine(450, 430, 300, 500); // Barre droite / (bas)
+    Gfx_DrawLine(170, 430, 300, 500); // Barre droite \ (bas)
+
+    
+    
+    Print("Le logo est désormais terminé !");
+Print("Le logo est désormais terminé !");
+Print("Ce programme à été créé le 5 Décembre 2020 à 18:56 et à été fini à 23:59 !");
+Print("Pensez à rejoindre Dev-Time: https://dev-time.eu/");
+Print("Copyright Dev-Time 2020 for Ubik Code");
+Print("OpenSource official logo Dev-Time in Ubik Code developed by KilioZ");
+
+    Gfx_Shutdown();
+}
