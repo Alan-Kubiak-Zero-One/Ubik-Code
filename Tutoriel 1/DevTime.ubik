@@ -53,7 +53,6 @@ function main()
 
     
     
-    Print("Le logo est désormais terminé !");
 Print("Le logo est désormais terminé !");
 Print("Ce programme à été créé le 5 Décembre 2020 à 18:56 et à été fini à 23:59 !");
 Print("Pensez à rejoindre Dev-Time: https://dev-time.eu/");
